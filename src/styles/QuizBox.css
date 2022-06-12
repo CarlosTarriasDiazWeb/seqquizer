@@ -1,0 +1,21 @@
+:root {
+  --main_bg: rgb(39, 35, 37);
+  --border-color: rgba(255, 255, 255, 0.797);
+}
+
+div.quiz-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: 2px solid var(--border-color);
+  border-radius: 0.3rem;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: larger;
+  color: var(--border-color);
+}

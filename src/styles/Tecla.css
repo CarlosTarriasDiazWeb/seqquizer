@@ -1,0 +1,31 @@
+:root {
+  --main_bg: rgb(39, 35, 37);
+  --border-color: rgba(255, 255, 255, 0.797);
+}
+
+button.tecla {
+  border: 2px solid var(--border-color);
+  border-radius: 0.3rem;
+  background-color: var(--main_bg);
+  padding: 0.2rem;
+  color: var(--border-color);
+  display: flex;
+  width:35px;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 30%;
+  font-weight: 700;
+  font-size: larger;
+  transition: all .3s linear;
+}
+
+button.tecla:last-child {
+    flex: 0 0 95%;
+}
+
+button.tecla:hover {
+    cursor: pointer;
+    background-color: var(--border-color);
+    color: var(--main_bg);
+    transform: scale(0.95);
+}
